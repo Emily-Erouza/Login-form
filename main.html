@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login form</title>
+</head>
+
+<body>
+    <div class="search-page">
+
+        <input type="checkbox" id="form-switch" />
+       
+        <form id="SearchForm" action="" method="post">
+            <h1>Emily's Book</h1>
+            <p>FIND THE BEST BOOK TODAY!</p>
+            </div>
+            <div>
+                <label for="search">Search:</label>
+            <input type="text" placeholder="Bookname" name="Emter your Bookname"  id="search"/>
+            <button onclick="searchClick(event)">Search</button>
+            <label for="form-switch"><span>Bookbtn</span></label>
+        </form>
+
+        <form id="BookForm" action=" " method="post">
+            <h2></h2>
+            <p>Please fill in this form to create an account.</p>
+
+            <label for="Bookname">Bookname</label>
+            <input type="Bookname" placeholder=" Enter Bookname" id="Bookname" required />
+
+            <label for="description">Description</label>
+            <input type="description " placeholder="Enter description" id="description" required />
+
+            <label for="author">Author</label>
+            <input type="author " placeholder=" Enter author" id="author" required />
+
+            <label for="Genre"></label>
+            <input type="Genre " placeholder=" Enter Genre" id="Genre" required />
+
+
+            <button type="submit" id="btn2" value="submit" onclick="bookbtn(event)">
+                Submit
+            </button>
+
+            <label for="form-switch">Bookbtn..</label>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
